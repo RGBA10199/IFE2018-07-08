@@ -1,0 +1,149 @@
+/*不要用iconfont类,直接用具体类或者font-size:iconfont;*/
+
+
+/**{color:pink;}*/
+
+.header {
+    background: #333;
+    height: 80px;
+}
+
+.banxin {
+    position: relative;
+    background: inherit;
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+/*zijuefuxiang*/
+
+.logo {
+    float: left;
+    background: url(../images/logo.png) center center no-repeat;
+    width: 70px;
+    height: 100%;
+}
+
+.subnav {
+    float: right;
+}
+
+.subnav a {
+    float: left;
+    color: #f3f3f3;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.banner {
+    background: #6b3;
+    height: 300px;
+}
+
+.lunbotukongzhilan {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    height: 36px;
+    margin: 0;
+}
+
+
+/*防止外边距塌陷*/
+
+.lunbotukongzhilan button {
+    float: left;
+    color: rgba(0, 0, 0, .5);
+    font-size: 20px;
+    background: rgba(255, 255, 255, .2);
+    width: 30px;
+    height: 100%;
+    margin-right: 5px;
+    border: 2px solid rgba(0, 0, 0, .5);
+    transition: all 0.5s;
+}
+
+.lunbotukongzhilan button:focus {
+    color: rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, .8);
+    height: 51px;
+    margin-top: -15px;
+    border-color: rgba(0, 0, 0, 1);
+}
+
+
+/*top:-15px;bottom:15px;translateX(-15px);*/
+
+.nav {
+    background: #eee;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+}
+
+.biaoqianlan {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+
+
+/*z-index: 1;*/
+
+.biaoqianlan button {
+    float: left;
+    color: #333;
+    font-size: 18px;
+    background: #eee;
+    width: 120px;
+    height: 50px;
+    border: 1px solid #eee;
+    border-bottom-color: #ccc;
+    border-radius: 20px 20px 0 0;
+    text-decoration: underline;
+}
+
+.biaoqianlan button:focus {
+    background: #fff;
+    border-color: #ccc;
+    border-bottom-color: #fff;
+    text-decoration: none;
+}
+
+.section {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.neironghang {
+    display: flex;
+    background: inherit;
+    width: 100%;
+    height: 176px;
+    margin-top: 10px;
+}
+
+.neironghang:last-child {
+    margin-bottom: 20px;
+}
+
+.neirongkuai {
+    flex: 1;
+    color: #333;
+    height: 100%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    line-height: 174px;
+}
+
+.neirongkuai:last-child {
+    margin-right: 0;
+}
+
+.footer {
+    background: #666;
+    color: #fff;
+    height: 120px;
+    line-height: 55px;
+}
